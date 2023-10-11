@@ -1,0 +1,18 @@
+{
+    "name": "antonevers/gra-composer-repository",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Anton Evers",
+            "email": "evers@adobe.com"
+        }
+    ],
+    "require": {
+        "composer/satis": "dev-main#15a0e97 as 1.0.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/satis": true
+        }
+    }
+}

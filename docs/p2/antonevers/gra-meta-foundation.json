@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "antonevers/gra-meta-foundation": [
+            {
+                "name": "antonevers/gra-meta-foundation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/gra-meta-foundation.git",
+                    "reference": "63367fab7714b541661ff98c92b97fbd211ca369"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/gra-meta-foundation/zipball/63367fab7714b541661ff98c92b97fbd211ca369",
+                    "reference": "63367fab7714b541661ff98c92b97fbd211ca369",
+                    "shasum": ""
+                },
+                "require": {
+                    "antonevers/gra-component-foundation": "~1.0",
+                    "antonevers/module-3rdparty": "~1.0",
+                    "antonevers/module-gra": "~1.0",
+                    "magento/composer-dependency-version-audit-plugin": "~0.1",
+                    "magento/composer-root-update-plugin": "~2.0",
+                    "magento/product-enterprise-edition": "2.4.6-p3"
+                },
+                "time": "2023-10-11T14:03:47+00:00",
+                "type": "metapackage",
+                "support": {
+                    "source": "https://github.com/AntonEvers/gra-meta-foundation/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/gra-meta-foundation/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "antonevers/gra-composer-repository",
+  "description": "Anton Evers GRA example Composer Repository",
+  "homepage": "https://antonevers.github.io/gra-composer-repository/",
+  "include-filename": "all.json",
+  "output-dir": "docs",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/AntonEvers/module-example-3rdparty.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/AntonEvers/module-example-gra.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/AntonEvers/module-example-local.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/AntonEvers/gra-separate-brand-x.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/AntonEvers/gra-meta-brand-x.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/AntonEvers/gra-meta-foundation.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/AntonEvers/gra-component-foundation.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://antonevers.github.io/gra-composer-repository/"
+    }
+  ],
+  "require-dependencies": false,
+  "require": {
+    "antonevers/gra-separate-brand-x": "*",
+    "antonevers/gra-component-foundation": "^1.0",
+    "antonevers/gra-meta-foundation": "^1.0",
+    "antonevers/gra-meta-brand-x": "^1.0",
+    "antonevers/module-local": "^1.0",
+    "antonevers/module-gra": "^1.0",
+    "antonevers/module-3rdparty": "^1.0"
+  }
+}

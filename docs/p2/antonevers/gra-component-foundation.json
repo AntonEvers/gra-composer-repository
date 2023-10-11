@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "antonevers/gra-component-foundation": [
+            {
+                "name": "antonevers/gra-component-foundation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/gra-component-foundation.git",
+                    "reference": "e2cc0c4637cc60a7a2fc270d6e5e52f45c735bd1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/gra-component-foundation/zipball/e2cc0c4637cc60a7a2fc270d6e5e52f45c735bd1",
+                    "reference": "e2cc0c4637cc60a7a2fc270d6e5e52f45c735bd1",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/magento-composer-installer": "*"
+                },
+                "time": "2023-10-11T14:18:40+00:00",
+                "type": "magento2-component",
+                "extra": {
+                    "map": [
+                        [
+                            "src/gitignore",
+                            ".gitignore"
+                        ]
+                    ]
+                },
+                "support": {
+                    "source": "https://github.com/AntonEvers/gra-component-foundation/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/gra-component-foundation/issues"
+                }
+            }
+        ]
+    }
+}

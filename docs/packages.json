@@ -1,0 +1,17 @@
+{
+    "packages": [],
+    "includes": {
+        "all.json": {
+            "sha1": "6c4f47f1a2f101a6082ceeaa9d92b6d2071eaf25"
+        }
+    },
+    "metadata-url": "/gra-composer-repository/p2/%package%.json",
+    "available-packages": [
+        "antonevers/gra-component-foundation",
+        "antonevers/gra-meta-brand-x",
+        "antonevers/gra-meta-foundation",
+        "antonevers/module-3rdparty",
+        "antonevers/module-gra",
+        "antonevers/module-local"
+    ]
+}

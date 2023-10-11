@@ -1,0 +1,210 @@
+{
+    "packages": {
+        "antonevers/gra-component-foundation": {
+            "1.0.0": {
+                "name": "antonevers/gra-component-foundation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/gra-component-foundation.git",
+                    "reference": "e2cc0c4637cc60a7a2fc270d6e5e52f45c735bd1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/gra-component-foundation/zipball/e2cc0c4637cc60a7a2fc270d6e5e52f45c735bd1",
+                    "reference": "e2cc0c4637cc60a7a2fc270d6e5e52f45c735bd1",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/magento-composer-installer": "*"
+                },
+                "time": "2023-10-11T14:18:40+00:00",
+                "type": "magento2-component",
+                "extra": {
+                    "map": [
+                        [
+                            "src/gitignore",
+                            ".gitignore"
+                        ]
+                    ]
+                },
+                "support": {
+                    "source": "https://github.com/AntonEvers/gra-component-foundation/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/gra-component-foundation/issues"
+                }
+            }
+        },
+        "antonevers/gra-meta-brand-x": {
+            "1.0.0": {
+                "name": "antonevers/gra-meta-brand-x",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/gra-meta-brand-x.git",
+                    "reference": "008f974560120d50e2a7de757f876d7a8f242f0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/gra-meta-brand-x/zipball/008f974560120d50e2a7de757f876d7a8f242f0c",
+                    "reference": "008f974560120d50e2a7de757f876d7a8f242f0c",
+                    "shasum": ""
+                },
+                "require": {
+                    "antonevers/gra-meta-foundation": "~1.0",
+                    "antonevers/module-local": "~1.0"
+                },
+                "time": "2023-10-11T11:28:27+00:00",
+                "type": "metapackage",
+                "support": {
+                    "source": "https://github.com/AntonEvers/gra-meta-brand-x/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/gra-meta-brand-x/issues"
+                }
+            }
+        },
+        "antonevers/gra-meta-foundation": {
+            "1.0.0": {
+                "name": "antonevers/gra-meta-foundation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/gra-meta-foundation.git",
+                    "reference": "63367fab7714b541661ff98c92b97fbd211ca369"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/gra-meta-foundation/zipball/63367fab7714b541661ff98c92b97fbd211ca369",
+                    "reference": "63367fab7714b541661ff98c92b97fbd211ca369",
+                    "shasum": ""
+                },
+                "require": {
+                    "antonevers/gra-component-foundation": "~1.0",
+                    "antonevers/module-3rdparty": "~1.0",
+                    "antonevers/module-gra": "~1.0",
+                    "magento/composer-dependency-version-audit-plugin": "~0.1",
+                    "magento/composer-root-update-plugin": "~2.0",
+                    "magento/product-enterprise-edition": "2.4.6-p3"
+                },
+                "time": "2023-10-11T14:03:47+00:00",
+                "type": "metapackage",
+                "support": {
+                    "source": "https://github.com/AntonEvers/gra-meta-foundation/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/gra-meta-foundation/issues"
+                }
+            }
+        },
+        "antonevers/module-3rdparty": {
+            "1.0.0": {
+                "name": "antonevers/module-3rdparty",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/module-example-3rdparty.git",
+                    "reference": "4fd44ad8bed7892a957af9385e935d46d8bdeee3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/module-example-3rdparty/zipball/4fd44ad8bed7892a957af9385e935d46d8bdeee3",
+                    "reference": "4fd44ad8bed7892a957af9385e935d46d8bdeee3",
+                    "shasum": ""
+                },
+                "time": "2023-09-26T11:11:43+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "AntonEvers\\ThirdParty\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0",
+                    "AFL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/AntonEvers/module-example-3rdparty/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/module-example-3rdparty/issues"
+                }
+            }
+        },
+        "antonevers/module-gra": {
+            "1.0.0": {
+                "name": "antonevers/module-gra",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/module-example-gra.git",
+                    "reference": "95523a582097da2103c3baf90cb015fa4cb496c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/module-example-gra/zipball/95523a582097da2103c3baf90cb015fa4cb496c9",
+                    "reference": "95523a582097da2103c3baf90cb015fa4cb496c9",
+                    "shasum": ""
+                },
+                "time": "2023-09-26T11:14:02+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "AntonEvers\\Gra\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0",
+                    "AFL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/AntonEvers/module-example-gra/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/module-example-gra/issues"
+                }
+            }
+        },
+        "antonevers/module-local": {
+            "1.0.0": {
+                "name": "antonevers/module-local",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AntonEvers/module-example-local.git",
+                    "reference": "64f88c012f43c77dc52116387c3b7a60037ff163"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AntonEvers/module-example-local/zipball/64f88c012f43c77dc52116387c3b7a60037ff163",
+                    "reference": "64f88c012f43c77dc52116387c3b7a60037ff163",
+                    "shasum": ""
+                },
+                "time": "2023-09-26T11:01:27+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "AntonEvers\\Local\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0",
+                    "AFL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/AntonEvers/module-example-local/tree/1.0.0",
+                    "issues": "https://github.com/AntonEvers/module-example-local/issues"
+                }
+            }
+        }
+    }
+}
